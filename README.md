@@ -13,10 +13,11 @@ This is a simple, console application to test calling to Shopify API in C#/.NET 
 No known bugs at this time.
 
 ## Change Log
-#### Date		Name		Description
-08.12.2020	Tiffany Siu		Initialize project, add README, do simple single item call to API
-08.13.2020	Tiffany Siu		Do simple call to get an array and print to console
-08.19.2020	Tiffany Siu		Add git, clear keys temporarily 
+| Date		| Name			| Description					|
+| ----------| ------------- | -----------------------------|
+| 08.12.2020 |	Tiffany Siu |		Initialize project, add README, do simple single item call to API |
+| 08.13.2020 |	Tiffany Siu |		Do simple call to get an array and print to console |
+| 08.19.2020 |	Tiffany Siu	|		Add git, clear keys temporarily |
 
 ## Technologies Used
 
