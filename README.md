@@ -33,7 +33,7 @@ No known bugs at this time.
 
 ## User Stories
 - As a Developer, I want to build a Console Application to access information from the Shopify API
-- As a Developer, I need to traverse through all the fields provided (ReturnID, CreatedAt, UpdatedAt, CustomerID, OrderID, ProductID, Quantity, Status, NumProducts, PriceExcl, PriceIncl, IsStockAdjusted, ReturnReason, ReturnAction, StaffNote) to create a new SQL table.
+- As a Developer, I need to traverse through all the fields provided to create a new SQL table.
 - As a Developer, I will get JSON records with 50 results by default (250 results max) at a time and I will then need to parse the results in order to add them into the database.
 - As a Developer, I need to add an API key to Web.config in order to access the LightSpeed eCom API.
 
@@ -47,7 +47,7 @@ No known bugs at this time.
 
 ### Syntax for making an API call to the Shopify Admin API
 
-- General Syntax: `https://{API_KEY}:{PASSWORD}@loversonline.myshopify.com/admin/api/{VERSION}/{RESOURCE}.json{FILTERS}`
+- General Syntax: `https://{API_KEY}:{PASSWORD}@{SITE}/admin/api/{VERSION}/{RESOURCE}.json{FILTERS}`
 
 
 
